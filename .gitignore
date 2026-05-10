@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Generated working folders
+00_공문_제출서식_원본/
+01_대상목록/
+02_원천수집/
+03_후보검색/
+04_제출서식/
+05_총괄보고/
+06_법무담당자_조직도_수집/
+07_최종송부본/
+logs/
+
+# Large / local generated files
+*.xlsx
+*.docx
+*.pdf
+*.hwp
+*.hwpx
+*.zip
+*.log
+*.tmp
+
+# Keep sample files
+!data/targets_sample.csv
+!examples/.gitkeep
